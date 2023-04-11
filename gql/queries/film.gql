@@ -1,0 +1,17 @@
+query film($filmId: ID) {
+	film(id: $filmId) {
+		title
+		director
+		releaseDate
+		speciesConnection {
+			species {
+				id
+				name
+				classification
+				homeworld {
+					name
+				}
+			}
+		}
+	}
+}

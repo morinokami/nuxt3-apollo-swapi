@@ -1,0 +1,24 @@
+{
+	"name": "nuxt3-apollo-swapi",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"codegen": "graphql-codegen --config codegen.ts"
+	},
+	"devDependencies": {
+		"@graphql-codegen/cli": "3.3.0",
+		"@nuxtjs/apollo": "^5.0.0-alpha.6",
+		"nuxt": "^3.3.3",
+		"prettier": "^2.8.7",
+		"typescript": "^5.0.4",
+		"@graphql-codegen/introspection": "3.0.1",
+		"@graphql-codegen/client-preset": "3.0.0"
+	},
+	"dependencies": {
+		"graphql": "^16.6.0"
+	}
+}
